@@ -1,5 +1,3 @@
-require 'capistrano/interactive/dsl'
-require 'capistrano/interactive/backend_hook'
+require 'sshkit/interact'
 
-SSHKit::Backend::Netssh.send(:include, Capistrano::Interactive::BackendHook)
-include Capistrano::Interactive::DSL
+load File.expand_path('../task.cap', __FILE__)

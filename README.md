@@ -9,8 +9,6 @@
 
 Interactive command execution for capistrano.
 
-TODO: Delete this and the text above, and describe your gem
-
 
 ## Installation
 

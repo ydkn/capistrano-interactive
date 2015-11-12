@@ -1,0 +1,6 @@
+namespace :load do
+  task :defaults do
+    # Change SSHKit backend
+    set :sshkit_backend, fetch(:sshkit_backend, SSHKit::Interact::Backend)
+  end
+end
