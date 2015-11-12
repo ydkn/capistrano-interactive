@@ -6,7 +6,7 @@ module Capistrano
           alias_method :non_interactive_execute, :execute
           def execute(*args)
             if BackendHook.intercept_command?
-              BackendHook.last_command = command(*args)
+              BackendHook.command = command(*args)
             else
               non_interactive_execute(*args)
             end
@@ -22,14 +22,14 @@ module Capistrano
         !!@intercept_command
       end
 
-      def self.last_command
-        @last_command
+      def self.command
+        @command
       end
 
       private
 
-      def self.last_command=(cmd)
-        @last_command = cmd
+      def self.command=(cmd)
+        @command = cmd
       end
     end
   end
