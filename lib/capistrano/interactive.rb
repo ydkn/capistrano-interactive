@@ -1,3 +1,3 @@
 require 'sshkit/interact'
 
-load File.expand_path('../task.cap', __FILE__)
+load File.expand_path('../interactive/task.cap', __FILE__)

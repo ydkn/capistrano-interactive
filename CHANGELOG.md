@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 0.2.1 (2015-11-12)
+### Fixed
+- wrong path for _task.cap_
+
 ## 0.2.0 (2015-11-12)
 ### Changed
 - extracted SSHKit stuff into separate gem (sshkit-interact)
