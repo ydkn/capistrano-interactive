@@ -1,3 +1,6 @@
+# No longer maintained in favor of [sshkit-interactive](https://github.com/afeld/sshkit-interactive)
+
+
 [![Gem Version](https://img.shields.io/gem/v/capistrano-interactive.svg)](https://rubygems.org/gems/capistrano-interactive)
 [![Dependencies](https://img.shields.io/gemnasium/ydkn/capistrano-interactive.svg)](https://gemnasium.com/ydkn/capistrano-interactive)
 [![Code Climate](https://img.shields.io/codeclimate/github/ydkn/capistrano-interactive.svg)](https://codeclimate.com/github/ydkn/capistrano-interactive)
